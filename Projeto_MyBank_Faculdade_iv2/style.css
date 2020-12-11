@@ -1,0 +1,237 @@
+html, header, nav, ul, img, a, body, p, h1, h2, h3, img, section, footer, li, span{
+    
+    padding: 0;
+    border: 0;
+}
+body{
+    line-height: 1;
+    font-family: 'Roboto', sans-serif; 
+    margin: 0%;
+}
+a{
+    text-decoration: none;
+}
+header{
+    width: 100%;
+    background: rgb(80, 80, 80);
+    z-index: 1000;
+    position: fixed;
+    top:0;
+    
+}
+nav {
+    height:80px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    box-shadow:rgb(177, 180, 187) 0px 1px 1px;
+}
+ul{
+    display: flex;
+    align-items:center;
+}
+#logo{
+    width: 40px;;
+}
+.itens-menu{
+    width: auto;
+    margin-left: 30px;
+    color:#ffffff;
+    
+}
+.itens-menu:hover{
+    color:#055dc9;
+
+}
+#right-side-menu-itens{
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: 100%;
+    font-weight:bold;
+}
+#login a  {
+    color: #ffffff;}
+
+#btn-menu{
+    border: none;
+    width: 200px;
+    margin-left: 50px;
+    height: 100%;
+    background:#055dc9;
+    cursor: pointer;
+    color:#ffffff;
+    font-size: 1.125rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.texto-azul{
+    color:#055dc9;
+}
+#conta-digital{
+    margin-top: 10%;
+}
+#conta-digital{
+    display: flex;
+    padding: 2%;
+}
+#conta-digital div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#conta-digital p{
+    text-align: left;
+    width: 40%;
+    font-size: 60px;
+    margin-right: 5%;
+    font-weight:bold
+}
+#conta-digital p span a{
+    font-size: 20px;
+    color:#055dc9;   
+}
+#conta-digital img{
+    width: 500px;
+}
+.texto-azul{
+    color:#055dc9;
+}
+#cartão-de-crédito{
+    margin-top: 7%;
+}
+#cartão-de-crédito{
+    display: flex;
+    padding: 2%;
+}
+#cartão-de-crédito div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#cartão-de-crédito p{
+    text-align: left;
+    width: 40%;
+    font-size: 60px;
+    margin-right: 5%;
+    font-weight:bold
+}
+#cartão-de-crédito p span a{
+    font-size: 20px;
+    color:#055dc9;
+}
+#cartão-de-crédito img{
+    width: 500px;
+}
+#rewards img{
+    width: 500px;
+}
+#rewards {
+    display: flex;
+    margin-top: 10%;
+    background: #03489c;
+    padding: 10%;
+}
+#rewards div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#rewards p {
+    text-align: left;
+    color: #ffffff;
+    width: 40%;
+    font-size: 60px;
+    margin-right: 5%;
+    font-weight: bold;
+}
+#rewards p span {
+    color:#98c8ff ;
+}
+#rewards p span a {
+    font-size: 20px;
+    color: #ffffff;
+}
+#contato{
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+}
+#contato-email{
+    border: 1px solid #055dc9;
+    border-radius: 4px;
+    font-size: 30px;
+    cursor: pointer;
+    padding: 20px 50px;
+    color: #ffffff;
+    background: #055dc9;
+    transition: all 0.6s ease;
+}
+#contato-email:hover{
+    background: transparent;
+    color: #055dc9;
+    transition: all 0.6s ease;
+}
+footer {
+    background:rgb(68, 68, 68) ;
+    height: 15vw;
+    padding: 5%;
+    color:#ffffff;
+    line-height: 2;
+    display: flex;
+    justify-content: space-between;
+}
+footer h1 {
+    font-size: 25px;
+}
+footer a {
+    color: #ffffff;
+}
+footer a:hover {
+    color: #055dc9;
+}
+#redes-sociais-footer{
+    width: 20%;
+}
+#redes-sociais-footer a {
+    margin-right: 5%;
+}
+#redes-sociais-footer a img{
+    width: 35px;
+}
+.itens-footer {
+    margin-top: 5%;
+}
+.float{
+    right: 30px;
+    position: fixed;
+    height: 60px;
+    bottom: 30px;
+}
+#caixatexto{
+    background: #ffffff;
+    color: #333333;
+    position: fixed;
+    width: 130px;
+    bottom: 50px;
+    right: 77px;
+    font-size: 16px;
+    line-height: 13px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #e2e2e2;
+    visibility: hidden;
+}
+::-webkit-scrollbar {
+    width: 10px;   
+}
+::-webkit-scrollbar-track{
+    background: #98c8ff;
+}
+::-webkit-scrollbar-thumb{
+    background:#055dc9 ;
+}
+::-webkit-scrollbar-thumb:hover{
+    background:#4089e2e3 ;
+}
